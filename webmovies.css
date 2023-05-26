@@ -1,0 +1,3766 @@
+
+
+::-webkit-scrollbar{
+    background: #47474e;
+
+}
+::-webkit-scrollbar-button{
+    background: #44444b;
+}
+::-webkit-scrollbar-button:active{
+    background: #262628;
+}
+::-webkit-scrollbar-button:hover{
+    background: #323238;
+}
+/* ::-webkit-scrollbar-button{
+    display: none;
+} */
+
+
+::-webkit-scrollbar-thumb{
+    background: #747478;
+    border-radius: 10px;
+
+}
+
+
+body{
+    margin: 0;
+    background: #222026;
+    overflow-x: hidden;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 102%;
+
+    
+}
+#lbtn{
+    border: 2px solid #343337;
+    border-radius: 48%;
+    line-height: 0vh;
+    width: 40vh;
+    background: #222026;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #bbb8b8;
+    z-index: 2;
+}
+#bbdiv{
+    height: 180vh;
+    border: 2px solid #343337;
+    border-radius: 3%;
+    width: 94%;
+    margin: -5% 3% 7% 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#notext{
+    text-decoration: none;
+    color: #bbb8b8;
+}
+#bar{
+    height: 101%;
+    width: 60px;
+    background: rgb(51, 51, 53);
+    position: fixed;
+    border-right: 1px solid rgb(0, 0, 0);
+    display: block;
+    transition-duration: 500ms; 
+    top: 0;
+    
+
+}
+#btn{
+    color: rgb(187, 184, 184);
+    line-height: normal;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 28px;
+    margin-left: 5px;
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 34px;
+    
+
+}
+#menu{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+    
+}
+#homeb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+
+}
+#hbtn{
+    width: 36px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+#homie {
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+}
+
+
+
+#moviesb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#mbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 7px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+
+}
+#movie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+    
+}
+#seriesb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#sbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+
+
+}
+#serie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#musicb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#musbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -169px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+    padding-left: 8px;
+
+
+}
+#musicie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+
+
+
+
+#settingsb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -62%;
+    transition-duration: 500ms;
+
+}
+#setbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 7px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#settie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#questb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -49%;
+    transition-duration: 500ms;
+
+}
+#qbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 9px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#questie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#feedb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -36%;
+    transition-duration: 500ms;
+
+}
+#fbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#feedie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#bugb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -23%;
+    transition-duration: 500ms;
+
+}
+#rbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 9px;
+    border: none;
+    margin-top: -1px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#bugie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+#mmu{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    display: none;
+
+}
+.anime {
+    animation: text1 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  
+  @keyframes text1 {
+    to {
+      opacity: 1;
+      text-shadow: none;
+      transform: none;
+    }
+  }
+
+#hme{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    
+
+}
+#mes{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    
+
+}
+#ses{
+    margin-left: 20px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#sgs{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#mic{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#bug{
+    margin-left: 23px;
+    font-size: 17px;
+    font-family: sans-serif;
+    max-width: 102px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#fed{
+    margin-left: 21px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+
+#qst{
+    margin-left: 25px;
+   
+    font-size: 17px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#container{
+    margin-left: 50px;
+}
+#ones{
+    width: 13%;
+    height: 31vh;
+    margin-left: 1%;
+    border-radius: 15px;
+    margin-top: 1%;
+    background: #bbb8b8;
+    cursor: auto;
+    position: relative;
+    transform: translateX(0px);
+    transition-duration: 1000ms;
+
+}
+#one{
+    max-width: 1200px;
+    width: 90%;
+    background: rgb(40, 40, 40);
+    height: 35vh;
+    margin: 1% 5% 0;
+    border-radius: 15px;
+    display: -webkit-inline-box; 
+    overflow: hidden;
+    
+    
+    
+    
+}
+.ones{
+    cursor: auto;
+}
+.moo,
+.maa,
+.mee{
+    margin-left: 0;
+}
+
+
+#prev,
+#next,
+#prevv,
+#prevvv,
+#nextt,
+#nexttt{
+    border-radius: 50%;
+    background: #646464;
+    border: none;
+    font-size: 20px;
+    color: #222026;
+    line-height: 30px;
+    width: 30px;
+   
+    z-index: 4;
+}
+#prev{
+    margin: 7.5% 0 0 0; 
+    position: absolute;
+    display: block;
+}
+#prevv{
+    margin: 7.5% 0 0 0; 
+    position: absolute;
+    display: block;
+}
+#prevvv{
+    margin: 7.5% 0 0 0; 
+    position: absolute;
+    display: block;
+}
+#next{
+    position: absolute;
+    margin: 7.5% 0 0 79.3%;
+    display: block;
+}
+#nextt{
+    position: absolute;
+    margin: 7.5% 0 0 79.3%;
+    display: block;
+}
+#nexttt{
+    position: absolute;
+    margin: 7.5% 0 0 79.3%;
+    display: block;
+}
+.mov{
+    color: #bbb8b8;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+#trenb{
+    background: transparent;
+    width: auto;
+    margin-left: 6%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: start;
+    line-height: 0px;
+    
+    border: none;
+}
+#in,
+#ion,
+#ioon{
+    border-radius: 50%;
+    height: 22px;
+    margin: 6px 0px;
+    
+    font-size: 16px;
+    background: transparent;
+    border: none;
+
+}
+#angl,
+#angle,
+#anglee{
+    color: #bbb8b8;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+#one{
+   
+    max-width: 1200px;
+}
+
+
+#footer{
+    width: 100%;
+    height: 85vh;
+    
+    background: #161322;
+    
+}
+#sgn{
+    border-radius: 5px;
+    background: #f9f345;
+    border: none;
+    
+    width: 18%;
+    line-height: 12px;
+    margin-top: 10% ;
+    margin-left: 41%;
+}
+#sgp{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #161322;
+    display: flex;
+    justify-content: center;
+}
+#sia{
+    color: #bbb8b8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+}
+#smia{
+    color: #bbb8b8;
+
+}
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 22%;
+    width: 60%;
+    align-items: end;
+}
+#pp{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#pp:hover{
+    text-decoration: underline;
+}
+#au{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#au:hover{
+    text-decoration: underline;
+}
+#cu{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#cu:hover{
+    text-decoration: underline;
+}
+#hp{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#hp:hover{
+    text-decoration: underline;
+}
+#rg{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#rg:hover{
+    text-decoration: underline;
+}
+#pop{
+    margin-top: 11%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* settings */
+
+
+#sets{
+    
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.setone{
+    width: 25%;
+    height: 100vh;
+    background: #343337;
+    border-radius: 10px;
+    border-right: 1px solid black;
+}
+
+.settwo{
+    width: 75%;
+    height: 100vh;
+    background:transparent;
+    overflow: hidden;
+    overflow-y: scroll;
+    direction: rtl;
+    scroll-behavior: smooth;
+    /* scroll-snap-type:  mandatory; */
+}
+
+.cons{
+    height: 50px;
+    width: 86%;
+    margin: 5px 0 0 9%;
+    background: transparent;
+    /* scroll-snap-align: center ; */
+    /* resize: both; */
+    
+}
+.hehe{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #bbb8b8;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-bottom: 1px solid rgb(100, 99, 99);
+    width: 70%;
+}
+.haha{
+    padding-left: 10%;
+}
+.hvhv{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    color: #bbb8b8;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+    border: none;
+}
+.hvhv{
+    background: transparent;
+}
+.hvhv:hover{
+    background: #414148;
+}
+
+.setdiv{
+    width: 90%;
+    height: 86%;
+    background: #343337;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.settwo::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+
+}
+.settwo::-webkit-scrollbar-button:active{
+    background: transparent;
+}
+.settwo::-webkit-scrollbar-button:hover{
+    background: transparent;
+}
+.settwo::-webkit-scrollbar-button{
+    display: none;
+    background: transparent;
+
+}
+.settwo::-webkit-scrollbar-thumb{
+    background: #747478;
+    border-radius: 10px;
+
+}
+
+.innersetdiv{
+
+    width: 45%;
+    height: 10%;
+    background: transparent;
+    margin: 0 45% 0 0;
+    top: 5%;
+    position: relative;
+    font-family: sans-serif;
+    color: #bbb8b8;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(100, 99, 99);
+}
+.hbhb{
+    left: 10%;
+    position: absolute;
+    font-size: 24px;
+    
+}
+
+.fsvg{
+    
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 90px 0 ;
+    animation-name: rotate;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+.frect{
+
+    transform-origin: center;
+    height: 2px;
+    width: 12px;
+    
+    
+    
+
+    
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.buffer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88%;
+    
+    
+}
+.bufdia{
+    margin: 88px -150px 0 -111px;
+    color: rgb(149, 144, 144);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.bufbtndiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bufbtn{
+    height: 20px;
+    width: 100px;
+    margin: 0;
+    color: #161322;
+    background: #f9f345;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.bufbtn:hover{
+    background: #eae30d;
+}
+#setp,
+#setp2{
+    color: rgb(149, 144, 144);
+    direction: ltr;
+    margin: 54px 185px 0 0;
+    max-width: 595px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+#stro{
+    color: #bbb8b8;
+}
+.needscroll{
+    overflow: hidden;
+    overflow-y: scroll;
+
+    
+}
+.needscroll::-webkit-scrollbar{
+    background: transparent;
+    width: 5px;
+
+}
+.needscroll::-webkit-scrollbar-button:active{
+    background: transparent;
+}
+.needscroll::-webkit-scrollbar-button:hover{
+    background: transparent;
+}
+.needscroll::-webkit-scrollbar-button{
+    display: none;
+    background: transparent;
+
+}
+.needscroll::-webkit-scrollbar-thumb{
+    background: #747478;
+    border-radius: 10px;
+    height: 60px;
+}
+.alink{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+.alink:hover{
+    text-decoration: underline;
+}
+.togglediv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 30px 0 0 90px;
+    
+
+}
+.toggle{
+    display: none;
+    transition: 0.5s;
+
+}
+.togglelabel{
+    width: 40px;
+    height: 20px;
+    background: #161322 ;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+
+.togglelabel::before{
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 18px;
+    margin: 1px;
+    border-radius: 50px;
+    background:#bbb8b8;
+    left: 0;
+}
+
+.toggle:checked + .togglelabel{
+    background: #bbb8b8;
+}
+.toggle:checked + .togglelabel::before{
+    transform: translateX(19px);
+    background: #161322;
+}
+
+/* #wire1{
+    height: 1px;
+    width: 3px;
+    top: -1px;
+    left: 108px;
+    
+}
+#wire2{
+    height: 3px;
+    width: 0;
+   
+    left: 105px;
+    top: 100px;
+}
+#wire3{
+    height: 0;
+    width: 3px;
+   
+    left: 102px;
+    top: 100px;
+   
+}
+#wire4{
+    height: 3px;
+    width: 0;
+    
+    left: 99px;
+    top: 29px;
+   
+}
+#wire5{
+    height: 0;
+    width: 3px;
+    
+    left: 98px;
+    top: 29px;
+   
+}
+#wire6{
+    height: 3px;
+    width: 0;
+    top: 146px;
+    left: 95px;
+    
+}
+#wire7{
+    height: 0;
+    width: 3px;
+    left: 93px;
+    bottom: -146px;
+   
+}
+#wire8{
+    height: 3px;
+    width: 0;
+    top: -12px;
+    left: 90px;
+    
+}
+#wire9{
+    height:0;
+    width: 3px;
+    left: 90px;
+    top: -12px;
+   
+}
+#wire10{
+    height: 3px;
+    width: 0;
+    left: 90px;
+    top: 35px;
+   
+}
+#wire11{
+    height: 0;
+    width: 3px;
+    left: 90px;
+    top: 35px;
+   
+}
+#bulbn{
+    position: relative;
+    right: 345px;
+    font-size: 30px;
+    transform: rotate(180deg);
+    top: 110px;
+    color: transparent;
+    transition-duration: 0.5s;
+}
+.wire{
+    background: #bbb8b8;
+    transition-duration: 0.5s ;
+    position: relative;
+    float: left;
+    
+} */
+
+
+.inprob{
+    width: 29%;
+    height: 30px;
+    background: #161322;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    float: left;
+    top: -27px;
+    left: 45%;
+    position: relative;
+    direction: ltr;
+    outline: 1px solid  transparent;
+    color: #bbb8b8;
+    
+   
+}
+#inprob::placeholder{
+    color: #5f5f5f;
+}
+
+/* .inprob:focus{
+    outline: 1px solid  rgb(0, 149, 255);
+    color: #bbb8b8;
+
+    
+} */
+#inprob:focus::placeholder{
+    color:  #5f5f5f5b ;
+}
+  
+  
+#probbtn{
+    background: #161322;
+    border-left: 1px solid #bbb8b8;
+    
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+
+    position: relative;
+    right: 22.69%;
+    color: #bbb8b8;
+    top: -27px;
+    width: 27px;
+    height: 32px;
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+#probbtn:hover{
+    color: #161322;
+    background: #bbb8b8;
+
+    
+}
+#margintop{
+    margin-top: 0;
+}
+
+@media  (max-width: 350px){
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 3.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 23% 0 0 -4px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 23% 0 0 66.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+
+
+    #ones{
+        width: 40%;
+    height: 24vh;
+    margin-top: 3.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -22% 3% 7% 3%;
+    height: 111vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 66vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 400px) and (min-width: 350px){
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 5.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 19% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+     margin: 19% 0 0 70.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+
+
+    #ones{
+        width: 40%;
+    height: 24vh;
+    margin-top: 3.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -22% 3% 7% 3%;
+    height: 111vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -12%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 69vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 450px) and (min-width: 400px){
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 7.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 16% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 16% 0 0 72.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 30%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -22% 3% 7% 3%;
+    height: 111vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -21%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 73vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 500px) and (min-width: 450px){
+
+
+
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 9.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 15% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 15% 0 0 73.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 30%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -22% 3% 7% 3%;
+    height: 118vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 77vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 550px) and (min-width: 500px){
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 9.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 14% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 14% 0 0 74.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 25%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -19% 3% 7% 3%;
+    height: 118vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 69vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 600px) and (min-width: 550px){
+
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 10.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 13% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 13% 0 0 75.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 27vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 25%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -18% 3% 7% 3%;
+    height: 118vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 70vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 650px) and (min-width: 600px){
+
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 10.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 12% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 12% 0 0 76.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 28vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 25%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 0px -6px;
+    font-size: 11px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 12px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -16% 3% 7% 3%;
+    height: 125vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 74vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 700px) and (min-width: 650px){
+
+
+
+    .setone{
+        display: none;
+    }
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 5%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 17px;
+    }
+    .bufdia{
+        font-size: 10px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 20px;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 11% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 11% 0 0 76.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 28vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 20%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -15% 3% 7% 3%;
+    height: 135vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 78vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 750px) and (min-width: 700px){
+
+    .hvhv{
+        font-size: 9px;
+    }
+    
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 8%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 20px;
+    }
+    .bufdia{
+        font-size: 13px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 0;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 10px;
+    }
+    .inprob{
+        top: 15px;
+    left: 2%;
+    width: 81%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 11% 0 0 -7px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 11% 0 0 76.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 28vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 20%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -14% 3% 7% 3%;
+    height: 135vh;
+    }
+    #lbtn{
+        width: 22vh;
+        font-size: 10px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 83vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 9px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 800px) and (min-width: 750px){
+
+
+    .hvhv{
+        font-size: 10px;
+    }
+    
+    .settwo{
+        width: 100%;
+    }
+    .innersetdiv{
+        width: 60%;
+        height: 8%;
+        margin: 0 32% 0 0 ;
+    }
+    .hbhb{
+        font-size: 20px;
+    }
+    .bufdia{
+        font-size: 13px;
+        margin: 88px -150px 0 -87px;
+
+    }
+    .fsvg{
+        margin: 0 0 90px 0;
+    }
+    .bufbtn{
+        margin-left: 10px;
+    }
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 35px;
+    }
+    .inprob{
+        top: 15px;
+        left: 7%;
+        width: 76%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 10% 0 0 -2px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 10% 0 0 77.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 29vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 17%;
+    height: 24vh;
+    margin-top: 2.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -13% 3% 7% 3%;
+    height: 140vh;
+    }
+    #lbtn{
+        width: 30vh;
+        font-size: 15px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 86vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 850px) and (min-width: 800px){
+
+
+
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 35px;
+    }
+    .inprob{
+        top: 15px;
+        left: 7%;
+        width: 76%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 10% 0 0 -2px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 10% 0 0 77.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 31vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 17%;
+    height: 27vh;
+    margin-top: 1.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -12% 3% 7% 3%;
+    height: 150vh;
+    }
+    #lbtn{
+        width: 30vh;
+        font-size: 15px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 90vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}
+@media  (max-width: 900px) and (min-width: 850px){
+
+
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 35px;
+    }
+    .inprob{
+        top: 15px;
+        left: 7%;
+        width: 76%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 10% 0 0 -2px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 10% 0 0 77.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 31vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 17%;
+    height: 27vh;
+    margin-top: 1.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -11% 3% 7% 3%;
+    height: 150vh;
+    }
+    #lbtn{
+        width: 30vh;
+        font-size: 15px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 94vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}  
+@media  (max-width: 950px) and (min-width: 900px){
+
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 35px;
+    }
+    .inprob{
+        top: 15px;
+        left: 7%;
+        width: 76%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 9% 0 0 -2px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 9% 0 0 79.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 31vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 17%;
+    height: 27vh;
+    margin-top: 1.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 1px -6px;
+    font-size: 13px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 15px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -10.5% 3% 7% 3%;
+    height: 155vh;
+    }
+    #lbtn{
+        width: 30vh;
+        font-size: 15px;
+        position: relative;
+    top: -30%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 10px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}    
+@media  (max-width: 1000px) and (min-width: 950px){
+
+
+    #setp,
+    #setp2{
+        margin: 54px 1px 0 35px;
+    }
+    .inprob{
+        top: 15px;
+        left: 7%;
+        width: 76%;
+    }
+    #probbtn{
+        right: 11.79%;
+    color: #bbb8b8;
+    top: 15px;
+    }
+
+
+
+
+
+
+    #prev,
+    #prevv,
+    #prevvv{
+         margin: 11% 0 0 -2px;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #next,
+    #nextt,
+    #nexttt{
+         margin: 11% 0 0 79.3%;
+        font-size: 14px;
+        line-height: 18px;
+        width: 19px; 
+    }
+    #one{
+        height: 39vh;
+        overflow-x: visible;
+    }
+    #one::-webkit-scrollbar,
+    #one::-webkit-scrollbar-button,
+    #one::-webkit-scrollbar-thumb,
+    #one::-webkit-scrollbar-track{
+    
+        background: transparent;
+        color: transparent;
+        display: none;
+        opacity: 0;
+    }
+
+
+    #ones{
+        width: 17%;
+    height: 35vh;
+    margin-top: 1.5%;
+    }
+    #in,
+    #ion,
+    #ioon{
+        margin: 4px -6px;
+    font-size: 15px;
+    }
+    .innerbbdiv{
+        margin-top: 20px;
+    }
+    .mov{
+        font-size: 18px;
+    }
+    #bbdiv{
+        border-radius: 25px;
+    margin: -9.79% 3% 7% 3%;
+    height: 185vh;
+    }
+    #lbtn{
+        width: 30vh;
+        font-size: 15px;
+        position: relative;
+    top: -25%;
+
+    }
+    #footer{
+        margin-left: 0%;
+        width: 100%;
+        height: 107vh;
+    }
+    #sgn{
+        width: 65%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 10px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    margin-top: 19px;
+    }
+    #bar{
+        height: 102vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+}   

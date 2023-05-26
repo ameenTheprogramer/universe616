@@ -1,0 +1,3850 @@
+
+::-webkit-scrollbar{
+    background: #47474e;
+
+}
+::-webkit-scrollbar-button{
+    background: #44444b;
+}
+::-webkit-scrollbar-button:active{
+    background: #262628;
+}
+::-webkit-scrollbar-button:hover{
+    background: #323238;
+}
+/* ::-webkit-scrollbar-button{
+    display: none;
+} */
+
+
+::-webkit-scrollbar-thumb{
+    background: #747478;
+    border-radius: 10px;
+
+}
+
+
+body{
+    
+    margin: 0;
+    background-image: linear-gradient(to right top, #1f1f1f, #23212b);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+#img{
+    background: transparent;
+    border-radius: 25px;
+    width: 90%;
+    height: 500px;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+
+}
+#imb{
+    background: transparent;
+    border-radius: 25px;
+    width: 90%;
+    height: 500px;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+#imc{
+    background: transparent;
+    border-radius: 25px;
+    width: 90%;
+    height: 500px;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+#imd{
+    background: transparent;
+    border-radius: 25px;
+    width: 90%;
+    height: 500px;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+
+.column img{
+    float: left;
+    width: 210px;
+    height: 110px;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    border-radius: 15px;
+}
+/* #bw{
+    float: left;
+    width: 210px;
+    height: 110px;
+    
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 15px;
+
+}
+#cw{
+    float: left;
+    width: 210px;
+    height: 110px;
+    
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+#dw{
+    float: left;
+    width: 210px;
+    height: 110px;
+    
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 15px;
+}
+#ew{
+    float: left;
+    width: 210px;
+    height: 110px;
+    
+    margin-top: 30px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+#fw{
+    float: left;
+    width: 210px;
+    height: 110px;
+    
+    margin-top: 30px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+#gw{
+    float: left;
+    width: 210px;
+    height: 110px;
+
+    margin-top: 30px;
+    margin-left: 350px;
+    border-radius: 15px;
+} */
+
+#ii{
+    width: 90%;
+    height: 535px;
+    border-radius: 25px;
+
+
+}
+
+
+
+
+
+
+#ime{
+    background: transparent;
+    border-radius: 25px;
+    width: 90%;
+    height: 500px;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    
+}
+#bar{
+    height: 100%;
+    width: 60px;
+    margin-bottom: -737px;
+    background: rgb(51, 51, 53);
+    position: fixed;
+    border-right: 1px solid rgb(0, 0, 0) ;
+    display: block;
+    transition-duration: 500ms;
+    
+
+}
+#row{
+    /* margin-left: -38px; */
+    width: 99%;
+    margin-top: 0px;
+    transition-duration: 3000ms;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2vh;
+    
+}
+#raw{
+    position: relative;
+    z-index: 2;
+    margin-left: 0;
+    width: 99%;
+    margin-top: -160px;
+    transition-duration: 3000ms;
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2vh;
+}
+
+#btn{
+    color: rgb(187, 184, 184);
+    line-height: normal;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 28px;
+    margin-left: 5px;
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 34px;
+    
+
+}
+#menu{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+    
+}
+#homeb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+
+}
+#hbtn{
+    width: 36px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+#homie {
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+}
+
+
+
+#moviesb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#mbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 7px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+
+}
+#movie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+    
+}
+#seriesb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#sbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+
+
+}
+#serie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#musicb{
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    
+
+}
+#musbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    margin-top: -169px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px;
+    padding-left: 8px;
+
+
+}
+#musicie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+
+
+
+
+#settingsb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -62%;
+    transition-duration: 500ms;
+
+}
+#setbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 7px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#settie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#questb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -49%;
+    transition-duration: 500ms;
+
+}
+#qbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 9px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#questie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#feedb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -36%;
+    transition-duration: 500ms;
+
+}
+#fbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 8px;
+    border: none;
+    margin-top: -2px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#feedie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+
+#bugb{
+    
+    margin-left: 7px;
+    width: 45px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -23%;
+    transition-duration: 500ms;
+
+}
+#rbtn{
+    width: 36px;
+    height: 45px;
+    margin-left: 9px;
+    border: none;
+    margin-top: -1px;
+    background: transparent;
+    display: flex;
+    padding-top: 11px
+
+
+}
+#bugie{
+    font-weight: 900;
+    font-size: 20px;
+    color: #bbb8b8;
+
+}
+#mmu{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    display: none;
+
+}
+.anime {
+    animation: text1 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  
+  @keyframes text1 {
+    to {
+      opacity: 1;
+      text-shadow: none;
+      transform: none;
+    }
+  }
+
+#hme{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    
+
+}
+#mes{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    
+
+}
+#ses{
+    margin-left: 20px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#sgs{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#mic{
+    margin-left: 23px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#bug{
+    margin-left: 23px;
+    font-size: 17px;
+    font-family: sans-serif;
+    max-width: 102px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+#fed{
+    margin-left: 21px;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+
+#qst{
+    margin-left: 25px;
+   
+    font-size: 17px;
+    font-family: sans-serif;
+    max-width: 100px;
+    transition-duration: 500ms;
+    color: #bbb8b8;
+    display: none;
+    margin-top: -1px;
+}
+
+#notext{
+    text-decoration: none;
+}
+
+/* #series{
+    background: rgb(52, 52, 52);
+    width: 96%;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 2%;
+
+}
+#musics{
+    background: rgb(52, 52, 52);
+    width: 96%;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 2%; 
+
+}*/
+#line1{
+    transition-duration: 10000ms;
+    width: 0px;
+    height: 4px;
+    background-color: aqua;
+    margin-top: 134px;
+    margin-left: 56px;
+    position: relative;
+    border-radius: 10px;
+}
+#line2{
+    transition-duration: 10000ms;
+    width: 0px;
+    height: 4px;
+    background-color: aqua;
+    margin-top: 134px;
+    margin-left: 106px;
+    position: relative;
+    border-radius: 10px;
+}
+#line3{
+    transition-duration: 10000ms;
+    width: 0px;
+    height: 4px;
+    background-color: aqua;
+    margin-top: 134px;
+    margin-left: 157px;
+    position: relative;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+.column.active {
+    border: none;
+}
+.column .line {
+    width: 0px;
+      height: 4px;
+      background-color: aqua;
+      margin-top: 134px;
+      position: relative;
+      border-radius: 10px;
+      left: 0;
+      right: 0;
+      margin-left: 3%;
+  }
+  .column.active .line {
+    width: 200px;
+    transition: all ease 5000ms;
+    margin-left: 3%;
+  }
+
+#trend{
+    background: rgb(45, 45, 45);
+    margin-top: 3%;
+    width: 100%;
+    height: 155vh;
+    border-radius: 10px;
+    display: table;
+    
+}
+#msm{
+    background: rgb(52, 52, 52);
+    width: 96%;
+    height: 35vh;
+    border-radius: 10px;
+    margin-top: 1vh;
+    margin-left: 2%;
+    display: flex;
+
+}
+.mov{
+    color: #bbb8b8;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+#trenb{
+    background: transparent;
+    width: 108px;
+    margin-left: 3%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: start;
+    line-height: 0px;
+    width: 108px;
+    border: none;
+}
+
+#ion{
+    border-radius: 50%;
+    height: 22px;
+    margin: 5px 0px;
+    background: transparent;
+    border: none;
+
+}
+#angle{
+    color: #bbb8b8;
+}
+#ioon{
+    border-radius: 50%;
+    height: 22px;
+    margin: 5px 0px;
+    background: transparent;
+    border: none;
+
+}
+#anglee{
+    color: #bbb8b8;
+}
+#in{
+    border-radius: 50%;
+    height: 22px;
+    margin: 5px 0px;
+    background: transparent;
+    border: none;
+
+}
+#angl{
+    color: #bbb8b8;
+}
+
+#footer{
+    width: 100%;
+    height: 85vh;
+    background: #161322;
+    
+}
+#sgn{
+    border-radius: 5px;
+    background: #f9f345;
+    border: none;
+    
+    width: 18%;
+    line-height: 12px;
+    margin-top: 10% ;
+    margin-left: 41%;
+}
+#sgp{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #161322;
+    display: flex;
+    justify-content: center;
+}
+#sia{
+    color: #bbb8b8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+}
+#smia{
+    color: #bbb8b8;
+
+}
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 22%;
+    width: 60%;
+    align-items: end;
+}
+#pp{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#pp:hover{
+    text-decoration: underline;
+}
+#au{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#au:hover{
+    text-decoration: underline;
+}
+#cu{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#cu:hover{
+    text-decoration: underline;
+}
+#hp{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#hp:hover{
+    text-decoration: underline;
+}
+#rg{
+    text-decoration: none;
+    color: #bbb8b8;
+    font-family: sans-serif;
+}
+#rg:hover{
+    text-decoration: underline;
+}
+#pop{
+    margin-top: 11%;
+}
+.lgoo{
+    color: #bbb8b8;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: -7%;
+}
+#one{
+    width: 10%;
+    height: 31vh;
+    margin-left: 1%;
+    border-radius: 15px;
+    margin-top: 1%;
+    background: transparent;
+}
+#one:hover{
+    background: rgb(60, 60, 60);
+}
+
+#two{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    width: 92%;
+    height: 95%;
+    border-radius: 15px;
+    margin: 4%;
+}
+/* #mtwo{
+    width: 86%;
+    height: 67%;
+    border-radius: 15px;
+    margin: 9px;
+}
+#name{
+    width: 80%;
+    height: 7%;
+    margin: 0 13px;
+}
+#author{
+    margin: 16px 13px 0px 13px;
+    width: 80%;
+    height: 5%;
+
+} */
+#kq{
+    background: rgb(45, 45, 45);
+    height: 45px;
+    width: 28px;
+    font-weight: 900;
+    border-radius: 50%;
+    border: none;
+    margin-top: 8%;
+    margin-left: -15px;
+}
+#three{
+    border: none;
+    border-radius: 15px;
+    display: contents;
+}
+#prime{
+    position: fixed;
+    color: #bbb8b8;
+    background: #343434;
+    width: 80vh;
+    height: 25vh;
+    z-index: 10;
+    display: none;
+    margin-top: 17%;
+    border-radius: 15px;
+    margin-left: 30%;
+}
+#cross{
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: -3px;
+    background: #bbb8b8;
+    color: #23212b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+#primemini{
+    position: fixed;
+    color: #bbb8b8;
+    background: #1a1a1a;
+    width: 77vh;
+    height: 22vh;
+    margin: 1.5vh;
+    z-index: 11;
+    border-radius: 15px;
+    
+
+}
+#primesign{
+    font-family: sans-serif;
+    font-size: 100%;
+    margin: 3% 7% 0% 7%;
+
+}
+#primebtn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8% 0% 0% 0%;
+
+}
+#pribtn{
+    border-radius: 15px;
+    border: none;
+    width: 45%;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ebda16db;
+    color: #1a1a1a;
+
+}
+#pribtn:hover{
+    background: #f9f345;
+}
+.blackclr{
+    color: #1a1a1a;
+}
+
+@media(max-width:335px){
+    
+    #container{
+        position: relative;
+        width:445px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #ii{
+        height: 150px;
+    }
+    #row{
+        width: 60%;
+    margin-left: 40%;
+    }
+    #raw{
+        width: 60%;
+    margin-left: 40%;
+    }
+    .column img{
+        height: 35px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 150px;
+        margin: 0px 183px;
+    width: 44vh;
+        
+    }
+    .column .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 37px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 39%;
+        width: 61%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 39%;
+        width: 61%;
+        height: 66vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+
+    .nones{
+        display: none;
+    }
+    #kq{
+        margin-top: 11%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    .lgoo{
+        margin-left: 35%;
+    }
+    #prext{
+        width: 21px;
+    padding: 16px 16px 16px 10px;
+    margin-left: 177px;
+    margin-top: -75%;
+    }
+    
+ 
+}
+@media(min-width:336px) and (max-width: 369px){
+    
+    #container{
+        position: relative;
+        width:445px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #ii{
+        height: 160px;
+    }
+    #row{
+        width: 66%;
+    margin-left: 34%;
+    }
+    #raw{
+        width: 66%;
+    margin-left: 34%;
+    }
+    .column img{
+        height: 35px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 160px;
+    margin: 0px 154px;
+    width: 48vh;
+        
+    }
+    .column .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 41px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 33%;
+        width: 67%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 33%;
+        width: 67%;
+        height: 66vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 20%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 9px;
+    margin-top: 19px;
+    }
+
+    .nones{
+        display: none;
+    }
+    #kq{
+        margin-top: 11%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    .lgoo{
+        margin-left: 31%;
+    }
+    #prext{
+        width: 33px;
+    padding: 16px 16px 16px 10px;
+    margin-left: 149px;
+    margin-top: -77%;
+    }
+    
+ 
+}
+@media (min-width: 370px) and (max-width:390px){
+    
+    #container{
+        position: relative;
+        width:445px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 20px;
+    padding: 16px 16px 16px 0px;
+    margin-left: 126px;
+    margin-top: -75%;
+    }
+    .lgoo{
+        margin-left: 25%;
+    }
+    #ii{
+        height: 180px;
+    }
+    #row{
+        width: 75%;
+        margin-left: 26%;
+    }
+    #raw{
+        width: 75%;
+    margin-left: 26%;
+    }
+    .column img{
+        height: 35px;
+        border-radius: 7px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 180px;
+        margin: 0px 28%;
+    width: 55vh;
+        
+    }
+    .column .line{
+        margin-top: 60px;
+        margin-left: 3px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 60px;
+        margin-left: 3px;
+        width: 49px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 27%;
+        width: 73%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 27%;
+        width: 73%;
+        height: 66vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 20px;
+    }
+
+    .nones.two{
+        display: none;
+    }
+    #kq{
+        margin-top: 9%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 450px) and (min-width:391px){
+    
+    #container{
+        position: relative;
+        width:445px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 0px;
+    margin-left: 90px;
+    margin-top: -75%;
+    }
+    .lgoo{
+        margin-left: 8%;
+    }
+    #ii{
+        height: 180px;
+    }
+    #row{
+        width: 85%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 85%;
+    margin-left: 15%;
+    }
+    .column img{
+        height: 35px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 180px;
+        margin: 0px 19%;
+    width: 60vh;
+        
+    }
+    .column .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 60px;
+        margin-left: 4px;
+        width: 55px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 16%;
+        width: 84%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 16%;
+        width: 84%;
+        height: 66vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        margin-left: -30px;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 500px) and (min-width:450px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 0px;
+    margin-left: 98px;
+    margin-top: -69%;
+    }
+    .lgoo{
+        margin-left: 13%;
+    }
+    #ii{
+        height: 190px;
+    }
+    #row{
+        width: 85%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 85%;
+    margin-left: 15%;
+    }
+    .column img{
+        height: 40px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 190px;
+        margin: 0px 19%;
+    width: 67vh;
+        
+    }
+    .column .line{
+        margin-top: 65px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 65px;
+        margin-left: 4px;
+        width: 63px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 16%;
+        width: 84%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 16%;
+        width: 84%;
+        height: 67vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 550px) and (min-width:500px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 0px;
+    margin-left: 55px;
+    margin-top: -70%;
+    }
+    .lgoo{
+        margin-left: 10%;
+    }
+    #ii{
+        height: 200px;
+    }
+    #row{
+        width: 95%;
+    margin-left: 5%;
+    }
+    #raw{
+        width: 95%;
+    margin-left: 5%;
+    }
+    .column img{
+        height: 45px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 200px;
+        margin: 0px 9%;
+    width: 76vh;
+        
+    }
+    .column .line{
+        margin-top: 70px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 70px;
+        margin-left: 4px;
+        width: 70px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: 6%;
+        width: 94%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: 6%;
+        width: 94%;
+        height: 70vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 600px) and (min-width:550px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 0px;
+    margin-left: 0px;
+    margin-top: -71%;
+    }
+    .lgoo{
+        margin-left: 0%;
+    }
+    #ii{
+        height: 230px;
+    }
+    #row{
+        width: 105%;
+    margin-left: -5%;
+    }
+    #raw{
+        width: 105%;
+    margin-left: -5%;
+    }
+    .column img{
+        height: 50px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 230px;
+        margin: 0px -1%;
+    width: 84vh;
+        
+    }
+    .column .line{
+        margin-top: 75px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 75px;
+        margin-left: 4px;
+        width: 80px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: -4%;
+        width: 104%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: -4%;
+        width: 104%;
+        height: 73vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 650px) and (min-width:600px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 0px;
+    margin-left: -48px;
+    margin-top: -72%;
+    }
+    .lgoo{
+        margin-left: -10%;
+    }
+    #ii{
+        height: 240px;
+    }
+    #row{
+        width: 115%;
+    margin-left: -15%;
+    }
+    #raw{
+        width: 115%;
+    margin-left: -15%;
+    }
+    .column img{
+        height: 50px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 240px;
+        margin: 0px -11%;
+    width: 93vh;
+        
+    }
+    .column .line{
+        margin-top: 75px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 75px;
+        margin-left: 4px;
+        width: 89px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 15vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 18vh;
+    }
+    #trend{
+        margin-left: -14%;
+        width: 114%;
+        height: 88vh;
+    }
+    #footer{
+        margin-left: -14%;
+        width: 114%;
+        height: 76vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 24%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 69%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 700px) and (min-width:650px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 7px;
+    margin-left: -109px;
+    margin-top: -84%;
+    }
+    .lgoo{
+        margin-left: -20%;
+    }
+    #ii{
+        height: 260px;
+    }
+    #row{
+        width: 125%;
+    margin-left: -25%;
+    }
+    #raw{
+        width: 125%;
+    margin-left: -25%;
+    }
+    .column img{
+        height: 60px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 260px;
+        margin: 0px -21%;
+    width: 102vh;
+        
+    }
+    .column .line{
+        margin-top: 85px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 85px;
+        margin-left: 4px;
+        width: 97px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 19vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 22vh;
+    }
+    #trend{
+        margin-left: -24%;
+        width: 124%;
+        height: 108vh;
+    }
+    #footer{
+        margin-left: -24%;
+        width: 124%;
+        height: 80vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 24%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 72%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 12px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 750px) and (min-width:700px){
+    
+    #container{
+        position: relative;
+        width:506px;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+    padding: 16px 16px 16px 7px;
+    margin-left: -160px;
+    margin-top: -86%;
+    }
+    .lgoo{
+        margin-left: -32%;
+    }
+    #ii{
+        height: 300px;
+    }
+    #row{
+        width: 135%;
+    margin-left: -35%;
+    }
+    #raw{
+        width: 135%;
+    margin-left: -35%;
+    }
+    .column img{
+        height: 70px;
+        border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 300px;
+        margin: 0px -31%;
+    width: 110vh;
+        
+    }
+    .column .line{
+        margin-top: 95px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 95px;
+        margin-left: 4px;
+        width: 104px;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+        height: 23vh;
+        border-radius: 5px;
+        background: transparent;
+        margin: 9px 3px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 26vh;
+    }
+    #trend{
+        margin-left: -34%;
+        width: 134%;
+        height: 120vh;
+    }
+    #footer{
+        margin-left: -34%;
+        width: 134%;
+        height: 84vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 24%;
+        margin-left: 10px;
+        
+    }
+    .pop{
+        
+    font-size: 10px;
+    margin-top: 14px;
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 8%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 45%;
+
+    }
+    #primemini{
+        width: 72%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 12px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 800px) and (min-width: 750px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 136px;
+        margin-top: -58%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 60vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 15%;
+    }
+    .column img{
+       height: 67px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 60vh;
+        margin: 0px 19%;
+    width: 113vh;
+        
+    }
+    .column .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 93%;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 16%;
+        width: 84%;
+        height: 133vh;
+    }
+    #footer{
+        margin-left: 16%;
+        width: 84%;
+        height: 88vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 30%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 850px) and (min-width: 800px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 136px;
+        margin-top: -55%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 60vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 15%;
+    }
+    .column img{
+       height: 67px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 60vh;
+        margin: 0px 19%;
+    width: 121vh;
+        
+    }
+    .column .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 93%;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 16%;
+        width: 84%;
+        height: 133vh;
+    }
+    #footer{
+        margin-left: 16%;
+        width: 84%;
+        height: 88vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 30%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 900px) and (min-width: 850px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 147px;
+        margin-top: -52%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 60vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 15%;
+    }
+    .column img{
+       height: 67px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 60vh;
+        margin: 0px 19%;
+    width: 128vh;
+        
+    }
+    .column .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 93%;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 15%;
+        width: 85%;
+        height: 133vh;
+    }
+    #footer{
+        margin-left: 15%;
+        width: 85%;
+        height: 90vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 30%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 950px) and (min-width: 900px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 147px;
+        margin-top: -50%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 60vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 15%;
+    }
+    .column img{
+       height: 67px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 60vh;
+        margin: 0px 18%;
+    width: 137vh;
+        
+    }
+    .column .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 92px;
+        margin-left: 4px;
+        width: 93%;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 101vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 14%;
+        width: 86%;
+        height: 133vh;
+    }
+    #footer{
+        margin-left: 14%;
+        width: 86%;
+        height: 94vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 30%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 1000px) and (min-width: 950px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 158px;
+        margin-top: -50%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 70vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 15%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 15%;
+    }
+    .column img{
+       height: 77px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 70vh;
+        margin: 0px 18%;
+    width: 144vh;
+        
+    }
+    .column .line{
+        margin-top: 102px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 102px;
+        margin-left: 4px;
+        width: 93%;
+        border-radius: 20px;
+    }
+    #bar{
+        height: 101vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: -10px;
+    }
+    #feedb{
+        margin-top: -10px;
+
+    }
+    #questb{
+        margin-top: -10px;
+
+    }
+    #settingsb{
+        margin-top: -10px;
+
+    }
+    #musicb{
+        margin-top: 49px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 14%;
+        width: 86%;
+        height: 133vh;
+    }
+    #footer{
+        margin-left: 14%;
+        width: 86%;
+        height: 97vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 12px;
+    }
+    #textno{
+        font-size: 7px;
+    }
+    #pop{
+        margin-top: 10%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 30%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 13px;
+    }
+    #pribtn{
+        font-size: 9px;
+    margin: 13px 0 0 0;
+    }
+    
+ 
+}
+@media (max-width: 1050px) and (min-width: 1000px){
+    
+    #container{
+        position: relative;
+        width:111%;
+    
+        transition-duration: 1000ms;
+
+    }
+    #prext{
+        width: 32px;
+        padding: 16px 16px 16px 10px;
+        margin-left: 172px;
+        margin-top: -51%;
+    }
+    .lgoo{
+        margin-left: 15%;
+    }
+    #ii{
+        height: 70vh;
+    }
+    #row{
+        width: 86%;
+    margin-left: 14%;
+    }
+    #raw{
+        width: 86%;
+    margin-left: 14%;
+    }
+    .column img{
+       height: 85px;
+    border-radius: 10px;
+        
+    
+    }
+    #ime,
+    #img,
+    #imd,
+    #imc,
+    #imb{
+        height: 70vh;
+        margin: 0px 18%;
+    width: 152vh;
+        
+    }
+    .column .line{
+        margin-top: 109px;
+        margin-left: 4px;
+        width: 0px;
+        border-radius: 20px;
+    }
+    .column.active .line{
+        margin-top: 109px;
+    margin-left: 4px;
+    width: 94%;
+    border-radius: 20px;
+    }
+    #bar{
+        height: 100vh;
+        width: 50px;
+        overflow: hidden;
+    }
+    #btn{
+        margin-left: 0px;
+    }
+    #hbtn{
+        margin-left: 1px;
+    }
+    #mbtn{
+        margin-left: 3px;
+    }
+    #sbtn{
+        margin-left: 1px;
+    }
+    #musbtn{
+        margin-left: 2px;
+    }
+    #rbtn{
+        margin-left: 5px;
+    }
+    #fbtn{
+        margin-left: 5px;
+    }
+    #qbtn{
+        margin-left: 7px;
+    }
+    #setbtn{
+        margin-left: 5px;
+    }
+    #bugb{
+        margin-top: 0px;
+    }
+    #feedb{
+        margin-top: 0px;
+
+    }
+    #questb{
+        margin-top: 0px;
+
+    }
+    #settingsb{
+        margin-top:0;
+
+    }
+    #musicb{
+        margin-top: 15px;
+
+    }
+    #one{
+        width: 20%;
+    height: 27vh;
+    border-radius: 5px;
+    background: transparent;
+    margin: 9px 6px;
+    }
+    #two{
+        border-radius: 5px;
+    }
+    #msm{
+        height: 30vh;
+    }
+    #trend{
+        margin-left: 14%;
+        width: 86%;
+        height: 140vh;
+    }
+    #footer{
+        margin-left: 14%;
+        width: 86%;
+        height: 111vh;
+    }
+    #sgn{
+        width: 69%;
+    line-height: 1px;
+    margin-top: 10%;
+    margin-left: 18%;
+    }
+    #sia{
+        margin-top: 15%;
+    width: 85%;
+    margin-left: 10%;
+    font-size: 22px;
+    }
+    #textno{
+        font-size: 9px;
+    }
+    #pop{
+        margin-top: 15%;
+        
+    }
+    .pop{
+        font-size: 10px;
+        margin-top: 55px;
+    
+    }
+
+    .nones.two.three{
+        display: none;
+    }
+    #kq{
+        margin-top: 10%;
+    }
+    #prime{
+        
+        width: 75%;
+        margin-left: 18%;
+        margin-top: 20%;
+
+    }
+    #primemini{
+        width: 73%;
+        font-size: 22px;
+    }
+    #pribtn{
+        font-size: 17px;
+    margin: 13px 0 0 0;
+    }
+    #primesign{
+        font-size: 75%;
+    }
+    
+ 
+}
+
+

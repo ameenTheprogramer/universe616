@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webproject.css" type="text/css">
+    <link rel="stylesheet" href="slideshow.css" type="text/css">
+    <script src="slideshow.js"></script>
+    <script src="https://kit.fontawesome.com/e227aa8b2d.js" crossorigin="anonymous"></script>
+    
+    
+
+    <title>Go Watch</title>
+</head>
+<body id="body">
+    
+
+    <div id="prime">
+        <button id="cross" onclick="prime2()">
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+        <div id="primemini">
+            <h2 id="primesign">Sign up and Buy a premium account for more access and for Better experience.</h2>
+            <div id="primebtn">
+                <button id="pribtn" onclick="prime2()" title="No">I am fine like this</button>
+                <button id="pribtn"><a href="" id="notext" class="blackclr" title="Yes, sign me in" >i need more from this</a></button>
+            </div>
+    
+        </div>
+        
+    </div> 
+  
+    <div id="container" class="container">
+        <div class="lgoo">
+            <h1>Moviefy</h1>
+        </div>
+        <div id="ime" class="mySlides" style="display: block;">
+            <div class="numbertext"></div>
+            <img id="ii" src="img1.jpg" style="width: 100%;">
+        </div>
+
+        <div id="imb" class="mySlides" style="display: none;">
+            <div class="numbertext"></div>
+            <img id="ii" src="img2.jpg" style="width: 100%;">
+        </div>
+
+        <div id="imc" class="mySlides" style="display: none;">
+            <div class="numbertext"></div>
+            <img id="ii" src="img3.jpg" style="width: 100%;">
+        </div>
+
+        <div id="imd" class="mySlides" style="display: none;">
+            <div class="numbertext"></div>
+            <img id="ii" src="img4.jpg" style="width: 100%;">
+        </div>
+
+        <div id="img" class="mySlides" style="display: none;">
+            <div class="numbertext"></div>
+            <img id="ii" src="img5.jpg" style="width: 100%;">
+        </div>
+
+
+
+
+
+        <a id="prext" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a id="prext" class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+        <div  id="row">
+            <div class="column">
+                <img id="aw" class="demo cursor active" src="img1.jpg" style="width:100%" onclick="currentSlide(1)">
+                <div class="line"></div>
+            </div>
+
+            <div class="column">
+                <img id="bw" class="demo cursor" src="img2.jpg" style="width:100%" onclick="currentSlide(2)">
+                <div class="line"></div>
+            </div>
+
+            <div class="column">
+                <img id="cw" class="demo cursor" src="img3.jpg" style="width:100%" onclick="currentSlide(3)">
+                <div class="line"></div>
+            </div>
+
+            <div class="column">
+                <img id="dw" class="demo cursor" src="img4.jpg" style="width:100%" onclick="currentSlide(4)">
+                <div class="line"></div>
+
+            </div>
+
+            <div class="column">
+                <img id="ew" class="demo cursor" src="img5.jpg" style="width:100%" onclick="currentSlide(5)">
+                <div class="line"></div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div id="trend">
+            <div style="display: flex; align-items: end;">
+                
+                    <button id="trenb"><a href="webmovies.html" id="notext">
+                        <h2 class="mov">Movies</h2>
+                        
+                    </a>
+                    </button>
+                    <button id="ion" style="margin-left: -25px;"><a href="webmovies.html" id="notext">
+                        <i class="fa-solid fa-angle-right" id="angle"></i></a>
+                    </button>
+                
+            </div>
+            <div id="msm" >
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="movie/1.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="movie/2.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones two"><button id="three" onclick="prime()">
+                    <img src="movie/3.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="movie/4.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="movie/5.jpeg" id="two"></button>
+                </div>
+                <div id="one" ><button id="three" onclick="prime()">
+                    <img src="movie/6.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="movie/7.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="movie/8.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="movie/9.jpg" id="two"></button>
+                </div>
+                <button id="kq">
+                    <a href="webmovies.html">
+                        <i class="fa-solid fa-angle-right" id="angle"></i>
+                    </a>
+                </button>
+
+                
+                
+            </div>
+            <div style="display: flex; align-items: end;">
+                
+                    <button id="trenb"><a href="webseries.html" id="notext">
+                        <h2 class="mov">TV Series</h2>
+                        
+                    </a>
+                    </button>
+                    <button id="ioon"><a href="webseries.html" id="notext">
+                        <i class="fa-solid fa-angle-right" id="anglee"></i></a>
+                    </button>
+                
+            </div>
+            <div id="msm">
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="series/1.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="series/2.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones"><button id="three" onclick="prime()">
+                    <img src="series/3.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="series/4.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="series/5.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="series/6.jpeg" id="two"></button>
+                </div>
+                <div id="one" class="nones"><button id="three" onclick="prime()">
+                    <img src="series/7.jpg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="series/8.jpeg" id="two"></button>
+                </div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="series/9.jpeg" id="two"></button>
+                </div>
+                <button id="kq">
+                    <a href="webseries.html">
+                        <i class="fa-solid fa-angle-right" id="angle"></i>
+                    </a>
+                </button>
+
+            </div>
+            <div style="display: flex; align-items: end;">
+                
+                    <button id="trenb"><a href="webmusics.html" id="notext">
+                        <h2 class="mov">Musics</h2>
+                        
+                    </a>
+                    </button>
+                    <button id="in" style="margin-left: -25px;"><a href="webmusics.html" id="notext">
+                        <i class="fa-solid fa-angle-right"  id="angl"></i></a>
+                    </button>
+                
+            </div>
+            <div id="msm">
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/1.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="music/2.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/3.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/4.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/5.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="music/6.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/7.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one"><button id="three" onclick="prime()">
+                    <img src="music/8.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <div id="one" class="nones two three"><button id="three" onclick="prime()">
+                    <img src="music/9.jpg"id="two"></button>
+                <div id="name"></div>
+            <div id="author"></div></div>
+                <button id="kq">
+                    <a href="webmusics.html">
+                        <i class="fa-solid fa-angle-right" id="angle"></i>
+                    </a>
+                </button>
+
+            </div>
+            
+
+        </div>
+
+
+
+        <div id="footer">
+            <button id="sgn">
+                <a href="" id="notext">
+                    <p id="sgp">Sign up for more access</p>
+                </a>
+            </button>
+            <div id="sia">
+                <a href="https://t.me/its_meh_ameen" id="notext">
+                    <i class="fa-brands fa-telegram" id="smia"></i>
+                </a>
+                <a href="https://www.tiktok.com/@its_me__ameen" id="notext">
+                    <i class="fa-brands fa-tiktok" id="smia"></i>
+                </a>
+                <a href="https://discord.gg/VvJGCSRt" id="notext">
+                    <i class="fa-brands fa-discord" id="smia"></i>
+                </a>
+                <a href="https://www.instagram.com/its_me__ameen/" id="notext">
+                    <i class="fa-brands fa-instagram" id="smia"></i>
+                </a>
+                <a href="https://twitter.com/its_me__ameen" id="notext">
+                    <i class="fa-brands fa-twitter" id="smia"></i> 
+                </a>
+                
+                
+                
+                
+
+            </div>
+            <div id="pop">
+                <div class="pop">
+                    <a href="websettings.html#privacy" id="pp" >
+                        <p id="textno">Privacy Policy <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                    <a href="websettings.html#aboutus" id="au">
+                        <p id="textno">about us <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                    <a href="websettings.html#help" id="hp">
+                        <p id="textno">Help <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                    <a href="websettings.html#aboutus" id="cu">
+                        <p id="textno">Contact us <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                    <a href="websettings.html#help" id="rg">
+                        <p id="textno">Report bug <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                </div>  
+                <div class="pop">
+                    <h3 style="color: #bbb8b8; font-family: sans-serif;">Moviefy</h3>
+
+                </div>
+                <div class="pop">
+                    <p style="color: #bbb8b8; font-family: sans-serif;">&#169; 2023 by Ameen The Greatest.</p>
+
+                </div>  
+            </div>
+        
+                
+               
+        </div> 
+
+
+
+        
+
+        
+    </div>
+
+    
+
+    <div id="bar">
+    
+        
+        <div id="menu">
+            <button id="btn" onclick="menufunction()">
+                <i class="fa-solid fa-bars">
+                </i>
+               <p id="mmu" class="anime">Menu</p>
+        
+            </button>
+        </div>
+
+        <div id="homeb" >
+            <a id="notext" href="webproject.html">
+            <button id="hbtn" >
+                <i class="fa-solid fa-house" id="homie"></i>
+                
+                <p id="hme" class="anime">Home</p>
+            
+            </button></a>
+        </div>
+
+        <div id="moviesb">
+            <a href="webmovies.html" id="notext">
+            <button id="mbtn">
+                <i class="fa-solid fa-film" id="movie"></i>
+                <p id="mes" class="anime">Movies</p>
+            </button></a>
+        </div>
+
+        <div id="seriesb">
+            <a href="webseries.html" id="notext">
+            <button id="sbtn">
+                <i class="fa-solid fa-tv" id="serie"></i>
+                <p id="ses" class="anime">Series</p>
+            </button></a>
+        </div>
+        <div id="settingsb">
+            <a href="websettings.html" id="notext">
+            <button id="setbtn">
+                <i class="fa-solid fa-gear" id="settie"></i>
+                <p id="sgs" class="anime">Settings</p>
+            </button></a>
+        </div>
+        <div id="questb">
+            <a href="websettings.html#help" id="notext">
+            <button id="qbtn">
+                <i class="fa-solid fa-lightbulb" id="questie"></i>
+                <p id="qst" class="anime">Help/FAQ</p>
+            </button></a>
+        </div>
+        <div id="feedb">
+            <a href="websettings.html#aboutus" id="notext">
+            <button id="fbtn">
+                <i class="fa-regular fa-comment" id="feedie"></i>
+                <p id="fed" class="anime">Contact Us</p>
+            </button></a>
+        </div>
+        <div id="bugb">
+            <a href="websettings.html#user" id="notext">
+            <button id="rbtn">
+                <i class="fa-solid fa-user" id="bugie"></i>
+                <p id="bug" class="anime">User</p>
+            </button></a>
+        </div>
+        <div id="musicb">
+            <a href="webmusics.html" id="notext">
+            <button id="musbtn">
+                <i class="fa-solid fa-headphones" id="musicie"></i>
+                <p id="mic" class="anime">Music</p>
+            </button></a>
+
+        </div>
+        
+        
+
+
+    </div>
+    
+
+    
+   
+    
+
+
+
+</body>
+<script>
+
+document.getElementById('menu').addEventListener("mouseover",f1);
+document.getElementById('menu').addEventListener("mouseout",f2);
+    
+document.getElementById('homeb').addEventListener("mouseover",f3);
+document.getElementById('homeb').addEventListener("mouseout",f4);
+
+document.getElementById('moviesb').addEventListener("mouseover",f5);
+document.getElementById('moviesb').addEventListener("mouseout",f6);
+
+document.getElementById('seriesb').addEventListener("mouseover",f7);
+document.getElementById('seriesb').addEventListener("mouseout",f8);
+
+document.getElementById('settingsb').addEventListener("mouseover",f9);
+document.getElementById('settingsb').addEventListener("mouseout",f10);
+
+document.getElementById('questb').addEventListener("mouseover",f11);
+document.getElementById('questb').addEventListener("mouseout",f12);
+
+document.getElementById('feedb').addEventListener("mouseover",f13);
+document.getElementById('feedb').addEventListener("mouseout",f14);
+
+document.getElementById('bugb').addEventListener("mouseover",f15);
+document.getElementById('bugb').addEventListener("mouseout",f16);
+
+document.getElementById('musicb').addEventListener("mouseover",f17);
+document.getElementById('musicb').addEventListener("mouseout",f18);
+
+document.getElementById('ion').addEventListener("mouseover",f19);
+document.getElementById('ion').addEventListener("mouseout",f20);
+document.getElementById('ioon').addEventListener("mouseover",f21);
+document.getElementById('ioon').addEventListener("mouseout",f22);
+document.getElementById('in').addEventListener("mouseover",f23);
+document.getElementById('in').addEventListener("mouseout",f24);
+
+
+
+window.addEventListener('scroll', scroll1)
+
+setInterval(slidepress, 10000)
+//setInterval(line01, 10000)
+
+// const sue = document.querySelector('#imc')
+
+// const observer = new MutationObserver(mutation =>{
+     
+//     console.log(mutation)
+//     line3();
+// });
+
+// observer.observe(sue,{
+//     attributes:true,
+    
+
+// });
+
+
+
+</script>
+
+</html>
+
+
+        
+
+
